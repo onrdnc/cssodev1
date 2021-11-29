@@ -1,0 +1,46 @@
+body {
+    background-color:lightcyan; 
+ }
+
+body {
+   text-align: center;
+   font-family: Calibri;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    display: inline;
+  }
+  
+ul.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+ul.b {
+    display: list-item;
+    list-style-type: square;
+    color: blue;
+  }
+
+ul.b li {
+    display: list-item;
+    text-align: center;
+    list-style: inside;
+  }
+
+ul.c {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+ul.a li {
+    display: inline;
+  }
+
+ul.c li {
+    display: inline;
+  }
